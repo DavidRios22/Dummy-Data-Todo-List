@@ -13,10 +13,15 @@
     <button onclick="fetchTodos()">Fetch Todos</button>
     <button onclick="logTodos()">Log Todos</button>
     <button onclick="populateTodos()">Populate Todos</button>
+    <button onclick="clearTodos()">Clear Todos</button>
 
     <ol id="todo-list">
-
     </ol>
+
+        <label for="num-input">Enter a number between 1-10</label>
+        <input type="number" name="num-input" id="num-input" min="1" max="10">
+
+<button onclick="getByUser()">Get Todos by User</button>
 
 </body>
 </html>
